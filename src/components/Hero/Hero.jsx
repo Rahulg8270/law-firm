@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Hero.module.css";
 import heroImage from "../../assets/heroImage.png";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import EmailLogo from '../../assets/emailIcon.svg'
+// import EmailLogo from '../../assets/emailIcon.svg'
 
 const Hero = () => {
   return (

@@ -1,0 +1,41 @@
+.introSection{
+    margin: 0;
+    background-color: var(--color-primary);
+    height: auto;
+}
+.introContainer{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.introLine{
+    width: 40%;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-right: 1px solid #6A6A6A;
+}
+.introDescription{
+    width: 40%;
+}
+.introNameType{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.introDetails{
+    color: var(--color-white);
+    opacity: 0.3;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+}
