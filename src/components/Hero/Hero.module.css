@@ -1,0 +1,79 @@
+.heroSection {
+  background-color: #111111;
+  height: 990px;
+}
+.heroContainer {
+  width: 80%;
+  height: 640px;
+  margin: auto;
+  padding-top: 53px;
+  display: flex;
+  flex-direction: column;
+}
+.heroHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heroNavbar{
+  width: 431px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter';
+}
+.heroHeaderBtn{
+  color: var(--color-white);
+  font-weight: 600;
+  padding: 1rem;
+  background-color: var(--color-black);
+  border: solid var(--color-white);
+  cursor: pointer;
+}
+.heroMain {
+  display: flex;
+  justify-content: space-between;
+}
+.heroCta{
+    align-self: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+
+
+.heroImg > img {
+  margin-top: 5%;
+}
+.heroTitle{
+    font-size: 66px;
+    line-height: 98px;
+    font-weight: 700;
+}
+.heroDescription{
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--color-gray);
+}
+.heroForm{
+  margin-top: 2rem;
+  position: relative;
+}
+.heroFormInput{
+  width: 50%;
+  position: relative;
+}
+.heroFormBtn,.heroFormInput {
+  padding: 1rem;
+  border-radius: 43px;
+  background-color: var(--color-gray);
+  border: none;
+}
+.heroFormBtn{
+  background-color: var(--color-secondary);
+  position: relative;
+  right: 18%;
+  cursor: pointer;
+}
