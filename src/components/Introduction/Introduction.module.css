@@ -19,7 +19,11 @@
     line-height: 87px;
     letter-spacing: 0em;
     text-align: left;
-    border-right: 1px solid #6A6A6A;
+    
+}
+.introDivide{
+    border: 1px solid #6A6A6A;
+    height: 200px;
 }
 .introDescription{
     width: 40%;

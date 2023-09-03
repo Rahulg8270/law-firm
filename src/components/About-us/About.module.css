@@ -1,0 +1,80 @@
+.aboutSection{
+    background-color: var(--color-primary);
+    height: 551px;
+    padding: 150px 0;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.aboutUsp{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutSuccessBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 377px;
+    border: 1.4px solid #FFFFFF1A;
+    padding: 1rem;
+    margin: 1rem 0;
+    /* margin: 2rem; */
+}
+.aboutSuccessBox:nth-child(2) {
+    background-color: #2E2E2E;
+
+}
+.aboutTitle{
+    margin-bottom: 5%;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    text-align: center;
+}
+.icons{
+    position: relative;
+}
+.successIcon{
+    width: 101px;
+    height: 101px;
+}
+.giftIcon{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(25px,-25px);
+}
+.aboutBtn{
+    background-color: var(--color-secondary);
+    padding: 0.5rem;
+    border-radius: 24px;
+    width: 30%;
+    height: 43px;
+    align-self: flex-start;
+}
+.successRate{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.aboutDescription{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    width: 80%;
+    color: var(--color-white);
+    opacity: 0.3;
+}

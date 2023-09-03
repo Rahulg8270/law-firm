@@ -6,6 +6,7 @@ const Introduction = () => {
     <div className={styles.introSection}>
       <div className={styles.introContainer}>
         <h2 className={styles.introLine}>Let’s Introduce Ourself</h2>
+        <div className={styles.introDivide}></div>
         <div className={styles.introDescription}>
           <h4 className={styles.introNameType}>Criminal Lawyer</h4>
           <p className={styles.introDetails}>
