@@ -1,0 +1,58 @@
+.teamSection {
+  background-color: var(--color-primary);
+  height: 425px;
+  padding: 150px 0;
+}
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.teamHeader {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 77px;
+}
+.teamMembers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.teamRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 77px;
+}
+.teamIndividual{
+    display: flex;
+}
+.teamIndividualContainer{
+    display: flex;
+    align-items: center;
+}
+.teamIndividualIcon{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.teamRow:first-child > :nth-child(2){
+    background-color: #E3B748;
+    justify-content: center;
+    padding-right: 77px;
+    border-radius: 14px;
+}
+.teamRow:nth-of-type(2) > :nth-child(2){
+    justify-content: center;
+    padding-right: 77px;
+}
+.teamRow:first-child > :nth-child(3), .teamRow:nth-of-type(2) > :nth-child(3){
+    justify-content: flex-end;
+}
