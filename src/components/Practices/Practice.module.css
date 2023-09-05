@@ -1,0 +1,55 @@
+.practiceSection {
+  background-color: var(--color-primary);
+  height: 1228px;
+  margin: 0;
+  padding: 150px 0;
+}
+.practiceContainer {
+  width: 80%;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.practiceTitle {
+  text-align: center;
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  padding-bottom: 53px;
+}
+.practiceGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.block1, .block2, .block3{
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+.card1 > img{
+  width: 800px;
+  height: 342px;
+}
+.card2 > img{
+  width: 420px;
+  height: 342px;
+}
+.card3 > img{
+  width: 420px;
+  height: 342px;
+}
+.card4 > img{
+  width: 800px;
+  height: 342px;
+}
+.card5 > img{
+  width: 800px;
+  height: 342px;
+}
+.card6 > img{
+  width: 420px;
+  height: 342px;
+}

@@ -11,10 +11,12 @@
     width: 80%;
     margin: auto;
 }
+
 .aboutUsp{
     display: flex;
     justify-content: space-between;
 }
+
 .aboutSuccessBox{
     display: flex;
     flex-direction: column;
@@ -26,10 +28,12 @@
     margin: 1rem 0;
     /* margin: 2rem; */
 }
+
 .aboutSuccessBox:nth-child(2) {
     background-color: #2E2E2E;
 
 }
+
 .aboutTitle{
     margin-bottom: 5%;
     font-family: Inter;
@@ -38,19 +42,23 @@
     line-height: 77px;
     text-align: center;
 }
+
 .icons{
     position: relative;
 }
+
 .successIcon{
     width: 101px;
     height: 101px;
 }
+
 .giftIcon{
     position: absolute;
     left: 0;
     bottom: 0;
     transform: translate(25px,-25px);
 }
+
 .aboutBtn{
     background-color: var(--color-secondary);
     padding: 0.5rem;
@@ -59,6 +67,7 @@
     height: 43px;
     align-self: flex-start;
 }
+
 .successRate{
     font-family: Inter;
     font-size: 24px;
@@ -68,6 +77,7 @@
     text-align: left;
 
 }
+
 .aboutDescription{
     font-family: Inter;
     font-size: 14px;
