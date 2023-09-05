@@ -1,0 +1,83 @@
+.clientSection {
+  background-color: var(--color-primary);
+  height: 626px;
+  padding: 150px 0;
+}
+.clientContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.clientHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: flex-end;
+}
+.clientFeedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.clientBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  height: 368px;
+  border: 1.4px solid #ffffff1a;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.clientBox:nth-child(2) {
+  background-color: #2e2e2e;
+}
+.clientTitle {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  text-align: left;
+  width: 374px;
+}
+.clientName {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.clientDescription {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.3;
+}
+.carouselBtn {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 200px;
+}
+.ellipse {
+  width: 90px;
+  height: 90px;
+  /* position: relative; */
+}
+.leftIcon {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  /* transform: translate(); */
+}
+.rightIcon {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  /* transform: translate(); */
+}
