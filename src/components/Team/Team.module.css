@@ -19,40 +19,59 @@
   text-align: center;
   padding-bottom: 77px;
 }
-.teamMembers{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.teamMembers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.teamRow{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 77px;
+.teamRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 77px;
 }
-.teamIndividual{
-    display: flex;
+.teamIndividual {
+  display: flex;
 }
-.teamIndividualContainer{
-    display: flex;
-    align-items: center;
+.teamIndividualContainer {
+  display: flex;
+  align-items: center;
 }
-.teamIndividualIcon{
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
+.teamIndividualIcon {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
-.teamRow:first-child > :nth-child(2){
-    background-color: #E3B748;
-    justify-content: center;
-    padding-right: 77px;
-    border-radius: 14px;
+.teamIndividualName {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.teamRow:nth-of-type(2) > :nth-child(2){
-    justify-content: center;
-    padding-right: 77px;
+.teamIndividualCasesSolved {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.3;
 }
-.teamRow:first-child > :nth-child(3), .teamRow:nth-of-type(2) > :nth-child(3){
-    justify-content: flex-end;
+
+.teamRow:first-child > :nth-child(2) {
+  background-color: #e3b748;
+  justify-content: center;
+  padding-right: 77px;
+  border-radius: 14px;
+}
+.teamRow:nth-of-type(2) > :nth-child(2) {
+  justify-content: center;
+  padding-right: 77px;
+}
+.teamRow:first-child > :nth-child(3),
+.teamRow:nth-of-type(2) > :nth-child(3) {
+  justify-content: flex-end;
 }
